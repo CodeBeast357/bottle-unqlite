@@ -2,8 +2,8 @@
 Bottle-UnQLite
 =====================
 
-.. image:: https://travis-ci.org/CodeBeast357/bottle-unqlite.svg?branch=master
-    :target: https://travis-ci.org/CodeBeast357/bottle-unqlite
+.. image:: https://travis-ci.com/CodeBeast357/bottle-unqlite.svg?branch=master
+    :target: https://travis-ci.com/CodeBeast357/bottle-unqlite
     :alt: Build Status - Travis CI
 
 UnQLite is a self-contained NoSQL database engine that runs locally and does not 
