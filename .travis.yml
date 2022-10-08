@@ -1,21 +1,16 @@
 os: linux
 language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+  - "3.9"
+  - "3.10"
+  - "nightly"
 sudo: false # faster builds
 
-matrix:
-  include:
-    - python: 3.6
-      env: TOXENV=py
-    - python: 3.5
-      env: TOXENV=py
-    - python: 3.4
-      env: TOXENV=py
-    - python: 2.7
-      env: TOXENV=py
-
-install: pip install tox
+before_install: pip install tox
 
 script: tox
-
-notifications:
-  email: false
